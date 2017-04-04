@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# GROVE-CONNECTOR-SMD-90D(4+2P-2.0)
+#
+DEF GROVE-CONNECTOR-SMD-90D(4+2P-2.0) J 0 40 N N 1 L N
+F0 "J" 0 0 50 H I L CNN
+F1 "GROVE-CONNECTOR-SMD-90D(4+2P-2.0)" 0 0 50 H I L CNN
+F2 "HW4-SMD-2.0-90D" 0 0 50 H I L CNN
+F3 "4P-SMD-2.0-90D" 0 0 50 H I L CNN "VALUE"
+DRAW
+P 2 0 0 10 -100 200 100 200 N
+P 2 0 0 10 100 200 100 -200 N
+P 2 0 0 10 100 -200 -100 -200 N
+P 2 0 0 10 -100 -200 -100 200 N
+T 0 -300 250 50 0 0 0 >name Normal 0 L B
+T 0 50 250 50 0 0 0 >value Normal 0 L B
+X 1 1 -200 150 200 R 40 40 0 0 B CI
+X 2 2 -200 50 200 R 40 40 0 0 B I
+X 3 3 -200 -50 200 R 40 40 0 0 B I
+X 4 4 -200 -150 200 R 40 40 0 0 B I
+X SS1 SS1 0 300 100 D 40 40 0 0 B 
+X SS2 SS2 0 -300 100 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
