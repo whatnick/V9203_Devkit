@@ -55,7 +55,7 @@ F0 "V9203" 60
 F1 "V9203.sch" 60
 $EndSheet
 $Sheet
-S 4100 850  2550 1450
+S 4000 800  2550 1450
 U 58CFDB70
 F0 "Featherwing" 60
 F1 "Featherwing.sch" 60

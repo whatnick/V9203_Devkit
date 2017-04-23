@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name Molex_RJ45)(type KiCad)(uri C:/Users/tisham/Documents/KiCad/V9203_Devkit/Molex_RJ45.pretty)(options "")(descr ""))
   (lib (name ROF-78E)(type Legacy)(uri "$(KIPRJMOD)/Recom_DCDC.pretty/ROF-78E.mod")(options "")(descr ""))
   (lib (name GROVE-CONNECTOR-SMD_)(type Legacy)(uri "$(KIPRJMOD)/SeeedStudio.pretty/GROVE-CONNECTOR-SMD_.mod")(options "")(descr ""))
   (lib (name GROVE-CONNECTOR-SMD)(type Legacy)(uri "$(KIPRJMOD)/SeeedStudio.pretty/GROVE-CONNECTOR-SMD.mod")(options "")(descr ""))
+  (lib (name Molex_RJ45)(type KiCad)(uri "$(KIPRJMOD)/Molex_RJ45.pretty")(options "")(descr ""))
 )
