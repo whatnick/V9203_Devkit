@@ -390,56 +390,56 @@ MISO
 Text GLabel 4150 4650 2    60   Input ~ 0
 CS
 $Comp
-L OPEN_HARDWARE_1 LOGO?
+L OPEN_HARDWARE_1 LOGO1
 U 1 1 58FEBF9A
 P 8350 4700
-F 0 "LOGO?" H 8597 4771 50  0000 L CNN
+F 0 "LOGO1" H 8597 4771 50  0000 L CNN
 F 1 "OPEN_HARDWARE_1" H 8597 4680 50  0000 L CNN
-F 2 "" H 1450 -250 50  0001 C CNN
+F 2 "Symbols:OSHW-Logo2_7.3x6mm_SilkScreen" H 1450 -250 50  0001 C CNN
 F 3 "" H 1450 -250 50  0001 C CNN
 	1    8350 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK?
+L Mounting_Hole MK1
 U 1 1 58FEC0CD
 P 7050 5350
-F 0 "MK?" H 7150 5396 50  0000 L CNN
+F 0 "MK1" H 7150 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 7150 5305 50  0000 L CNN
-F 2 "" H -1150 -50 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H -1150 -50 50  0001 C CNN
 F 3 "" H -1150 -50 50  0001 C CNN
 	1    7050 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK?
+L Mounting_Hole MK2
 U 1 1 58FEC187
 P 7500 5350
-F 0 "MK?" H 7600 5396 50  0000 L CNN
+F 0 "MK2" H 7600 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 7600 5305 50  0000 L CNN
-F 2 "" H -700 -50 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H -700 -50 50  0001 C CNN
 F 3 "" H -700 -50 50  0001 C CNN
 	1    7500 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK?
+L Mounting_Hole MK3
 U 1 1 58FEC1E1
 P 8000 5350
-F 0 "MK?" H 8100 5396 50  0000 L CNN
+F 0 "MK3" H 8100 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 8100 5305 50  0000 L CNN
-F 2 "" H -200 -50 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H -200 -50 50  0001 C CNN
 F 3 "" H -200 -50 50  0001 C CNN
 	1    8000 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK?
+L Mounting_Hole MK4
 U 1 1 58FEC23B
 P 8500 5350
-F 0 "MK?" H 8600 5396 50  0000 L CNN
+F 0 "MK4" H 8600 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 8600 5305 50  0000 L CNN
-F 2 "" H 300 -50 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 300 -50 50  0001 C CNN
 F 3 "" H 300 -50 50  0001 C CNN
 	1    8500 5350
 	1    0    0    -1  
