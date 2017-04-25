@@ -1,4 +1,4 @@
-update=25-Apr-17 11:45:40 AM
+update=26-Apr-17 12:22:13 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -65,3 +63,5 @@ LibName33=ROF-78E
 LibName34=GROVE-CONNECTOR-SMD
 LibName35=logo
 LibName36=mechanical
+[general]
+version=1
