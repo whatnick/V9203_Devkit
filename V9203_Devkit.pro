@@ -1,4 +1,4 @@
-update=17-Apr-17 10:13:02 PM
+update=25-Apr-17 11:45:40 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,5 +63,5 @@ LibName31=Vangotech
 LibName32=GROVE-CONNECTOR-SMD_
 LibName33=ROF-78E
 LibName34=GROVE-CONNECTOR-SMD
-[general]
-version=1
+LibName35=logo
+LibName36=mechanical
