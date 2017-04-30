@@ -3,4 +3,5 @@
   (lib (name GROVE-CONNECTOR-SMD_)(type Legacy)(uri "$(KIPRJMOD)/SeeedStudio.pretty/GROVE-CONNECTOR-SMD_.mod")(options "")(descr ""))
   (lib (name GROVE-CONNECTOR-SMD)(type Legacy)(uri "$(KIPRJMOD)/SeeedStudio.pretty/GROVE-CONNECTOR-SMD.mod")(options "")(descr ""))
   (lib (name Molex_RJ45)(type KiCad)(uri "$(KIPRJMOD)/Molex_RJ45.pretty")(options "")(descr ""))
+  (lib (name Whatnick_logo)(type KiCad)(uri "$(KIPRJMOD)/Whatnick_logo.pretty")(options "")(descr ""))
 )
