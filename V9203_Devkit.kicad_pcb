@@ -1,9 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew "(2017-03-07 revision cf373e543)-makepkg")
+(kicad_pcb (version 20170123) (host pcbnew "(2017-02-28 revision fd4e2b042)-makepkg")
 
   (general
     (links 196)
     (no_connects 0)
-    (area 107.306238 36.283 169.554549 91.950933)
+    (area 109.994999 39.994999 160.005001 90.005001)
     (thickness 1.6)
     (drawings 11)
     (tracks 1110)
@@ -3664,7 +3664,7 @@
     (model Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-A_EIA-3216-18.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3700,7 +3700,7 @@
     (model Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-A_EIA-3216-18.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3742,10 +3742,10 @@
       (net 34 GND))
     (pad 1 smd rect (at -1.1 0.85 90) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(U1-Pad23)"))
-    (model :Git3D:Crystals.3dshapes/Crystal_SMD_SeikoEpson_TSX3225-4pin_3.2x2.5mm.wrl
+    (model ${KIPRJMOD}/Crystal.3dshapes/NDK_NX3225GD-8MHZ-STD-CRA-3.STEP
       (at (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3961,10 +3961,10 @@
       (net 29 "Net-(C2-Pad1)"))
     (pad 1 smd rect (at -1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask)
       (net 54 USB))
-    (model :Git3D:Diodes_SMD.3dshapes/SOD-123.wrl
+    (model ${KIPRJMOD}/Diodes.3dshapes/SOD-123FL.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -4511,7 +4511,7 @@
   (gr_arc (start 115 45) (end 115 40) (angle -90) (layer Edge.Cuts) (width 0.01) (tstamp 58B4309C))
   (gr_arc (start 155 85) (end 155 90) (angle -90) (layer Edge.Cuts) (width 0.01))
   (dimension 50.000049 (width 0.3) (layer F.Fab)
-    (gr_text "50.000 mm" (at 134.999466 38.127815 -0.08021403891) (layer F.Fab) (tstamp 59068466)
+    (gr_text "50.000 mm" (at 134.999466 38.127815 -0.08021403891) (layer F.Fab) (tstamp 5906A547)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 110.002 36.283) (xy 109.997576 39.442814)))
@@ -4523,7 +4523,7 @@
     (arrow2b (pts (xy 160.001356 36.812817) (xy 158.874032 37.39766)))
   )
   (dimension 50.000025 (width 0.3) (layer F.Fab)
-    (gr_text "50.000 mm" (at 162.904548 64.87889 89.94270424) (layer F.Fab) (tstamp 59068467)
+    (gr_text "50.000 mm" (at 162.904548 64.87889 89.94270424) (layer F.Fab) (tstamp 5906A548)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 165.194447 89.881205) (xy 161.529549 89.87754)))
