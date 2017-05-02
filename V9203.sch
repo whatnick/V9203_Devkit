@@ -1771,4 +1771,8 @@ Wire Wire Line
 	1700 6100 1700 6150
 Wire Wire Line
 	1700 6800 1700 6850
+Text GLabel 7500 4100 1    39   Input ~ 0
+PM1
+Text GLabel 7500 4300 1    39   Input ~ 0
+PM0
 $EndSCHEMATC

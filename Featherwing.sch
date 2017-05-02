@@ -365,12 +365,12 @@ F 3 "" H -750 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS3 J?
+L GS3 J11
 U 1 1 59075259
 P 4600 950
-F 0 "J?" V 4646 762 50  0000 R CNN
+F 0 "J11" V 4646 762 50  0000 R CNN
 F 1 "GS3" V 4555 762 50  0000 R CNN
-F 2 "Connectors:GS3" V 88  -174 50  0001 C CNN
+F 2 "Connect:GS3" V 88  -174 50  0001 C CNN
 F 3 "" H 0   -100 50  0001 C CNN
 	1    4600 950 
 	0    -1   -1   0   
