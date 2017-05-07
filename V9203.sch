@@ -453,7 +453,7 @@ F 0 "R13" H 1630 5304 50  0000 R CNN
 F 1 "100R" H 1630 5395 50  0000 R CNN
 F 2 "Resistors_SMD:R_0402" V -920 3200 50  0001 C CNN
 F 3 "" H -850 3200 50  0001 C CNN
-F 4 "Value" H 1700 5350 60  0001 C CNN "manf#"
+F 4 "" H 1700 5350 60  0001 C CNN "manf#"
 	1    1700 5350
 	-1   0    0    1   
 $EndComp
@@ -476,7 +476,7 @@ F 0 "R11" V 1143 5750 50  0000 C CNN
 F 1 "100K" V 1234 5750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V -1270 3600 50  0001 C CNN
 F 3 "" H -1200 3600 50  0001 C CNN
-F 4 "Value" H 1350 5750 60  0001 C CNN "manf#"
+F 4 "" H 1350 5750 60  0001 C CNN "manf#"
 	1    1350 5750
 	0    1    1    0   
 $EndComp
@@ -488,7 +488,7 @@ F 0 "R14" H 1770 5996 50  0000 L CNN
 F 1 "100R" H 1770 5905 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" V -920 3800 50  0001 C CNN
 F 3 "" H -850 3800 50  0001 C CNN
-F 4 "Value" H 1700 5950 60  0001 C CNN "manf#"
+F 4 "" H 1700 5950 60  0001 C CNN "manf#"
 	1    1700 5950
 	1    0    0    -1  
 $EndComp
@@ -511,7 +511,7 @@ F 0 "R12" V 1143 6450 50  0000 C CNN
 F 1 "100K" V 1234 6450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V -1270 4300 50  0001 C CNN
 F 3 "" H -1200 4300 50  0001 C CNN
-F 4 "Value" H 1350 6450 60  0001 C CNN "manf#"
+F 4 "" H 1350 6450 60  0001 C CNN "manf#"
 	1    1350 6450
 	0    1    1    0   
 $EndComp
@@ -523,7 +523,7 @@ F 0 "R15" H 1770 6696 50  0000 L CNN
 F 1 "100R" H 1770 6605 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" V -920 4500 50  0001 C CNN
 F 3 "" H -850 4500 50  0001 C CNN
-F 4 "Value" H 1700 6650 60  0001 C CNN "manf#"
+F 4 "" H 1700 6650 60  0001 C CNN "manf#"
 	1    1700 6650
 	1    0    0    -1  
 $EndComp
@@ -790,6 +790,7 @@ F 0 "R17" V 743 2800 50  0000 C CNN
 F 1 "2.4R/10ppm" V 834 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V -1670 650 50  0001 C CNN
 F 3 "" H -1600 650 50  0001 C CNN
+F 4 "ERJ3BQF2R4V" H 950 2800 60  0001 C CNN "manf#"
 	1    950  2800
 	-1   0    0    1   
 $EndComp
@@ -1779,7 +1780,7 @@ F 0 "#PWR020" H 0   -200 50  0001 C CNN
 F 1 "GND" H 1255 977 50  0000 C CNN
 F 2 "" H 0   50  50  0001 C CNN
 F 3 "" H 0   50  50  0001 C CNN
-F 4 "Value" H 1250 1150 60  0001 C CNN "manf#"
+F 4 "" H 1250 1150 60  0001 C CNN "manf#"
 	1    1250 1150
 	-1   0    0    1   
 $EndComp
