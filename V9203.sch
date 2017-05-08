@@ -59,6 +59,7 @@ F 0 "U1" H 7241 3392 45  0000 L CNN
 F 1 "V9203" H 7241 3308 45  0000 L CNN
 F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 1750 1250 60  0001 C CNN
 F 3 "" H 1750 1250 60  0001 C CNN
+F 4 "1:$5;10:$4;100:$3" H 5500 3400 60  0001 C CNN "kicost:pricing"
 	1    5500 3400
 	1    0    0    -1  
 $EndComp
@@ -279,6 +280,7 @@ F 0 "Y1" V 7254 5241 50  0000 L CNN
 F 1 "Crystal_GND24" V 7345 5241 50  0000 L CNN
 F 2 "Crystals:Crystal_SMD_Abracon_ABM8G-4pin_3.2x2.5mm" H 0   50  50  0001 C CNN
 F 3 "" H 0   50  50  0001 C CNN
+F 4 "1:$3.00;10:$2.85" V 7300 5000 60  0001 C CNN "kicost:pricing"
 	1    7300 5000
 	0    1    1    0   
 $EndComp
