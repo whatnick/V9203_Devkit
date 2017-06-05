@@ -4573,7 +4573,7 @@
   (gr_text CSMUX (at 142.767429 72.383355) (layer B.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "V9203 3-phase low voltage\nEnergy Monitor Featherwing\nv1.0 02-05-2017\nhttp://whatnick.com" (at 134.995029 79.876355) (layer B.SilkS)
+  (gr_text "V9203 3-phase low voltage\nEnergy Monitor Featherwing\nv1.1 05-06-2017\nhttp://whatnick.com" (at 134.995029 79.876355) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_arc (start 115 85) (end 110 85) (angle -90) (layer Edge.Cuts) (width 0.01) (tstamp 58B430BF))
