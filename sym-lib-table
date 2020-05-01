@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name V9203_Devkit-rescue)(type Legacy)(uri ${KIPRJMOD}/V9203_Devkit-rescue.lib)(options "")(descr ""))
+  (lib (name Vangotech)(type Legacy)(uri ${KIPRJMOD}/Vangotech.lib)(options "")(descr ""))
+  (lib (name GROVE-CONNECTOR-SMD_)(type Legacy)(uri ${KIPRJMOD}/GROVE-CONNECTOR-SMD_.lib)(options "")(descr ""))
+  (lib (name ROF-78E)(type Legacy)(uri ${KIPRJMOD}/ROF-78E.lib)(options "")(descr ""))
+  (lib (name GROVE-CONNECTOR-SMD)(type Legacy)(uri ${KIPRJMOD}/GROVE-CONNECTOR-SMD.lib)(options "")(descr ""))
+  (lib (name whatnick)(type Legacy)(uri ${KIPRJMOD}/whatnick.lib)(options "")(descr ""))
+)

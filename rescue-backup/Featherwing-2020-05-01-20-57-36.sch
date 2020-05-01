@@ -1,5 +1,43 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:dc-dc
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Vangotech
+LIBS:GROVE-CONNECTOR-SMD_
+LIBS:ROF-78E
+LIBS:GROVE-CONNECTOR-SMD
+LIBS:logo
+LIBS:mechanical
+LIBS:whatnick
+LIBS:V9203_Devkit-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +52,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L V9203_Devkit-rescue:CONN_01X12 J3
+L CONN_01X12 J3
 U 1 1 58CFDC29
 P 4550 1400
 F 0 "J3" V 4550 700 50  0000 C CNN
@@ -25,7 +63,7 @@ F 3 "" H 2250 -150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L V9203_Devkit-rescue:CONN_01X16 J2
+L CONN_01X16 J2
 U 1 1 58CFDDD4
 P 4350 2250
 F 0 "J2" V 4350 1350 50  0000 L CNN
@@ -36,7 +74,7 @@ F 3 "" H 2550 -50 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D2
+L D_Schottky D2
 U 1 1 58CFED88
 P 8200 2900
 F 0 "D2" H 8200 3116 50  0000 C CNN
@@ -48,7 +86,7 @@ F 4 "SS110" H 8200 2900 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D1
+L D_Schottky D1
 U 1 1 58CFEF20
 P 8200 3100
 F 0 "D1" H 8200 3316 50  0000 C CNN
@@ -59,7 +97,7 @@ F 3 "" H 100 -300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D3
+L D_Schottky D3
 U 1 1 58CFEF3C
 P 8200 3350
 F 0 "D3" H 8200 3566 50  0000 C CNN
@@ -70,7 +108,7 @@ F 3 "" H 100 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ROF-78E:ROF-78E U2
+L ROF-78E U2
 U 1 1 58D60692
 P 6000 3200
 F 0 "U2" H 5741 3446 50  0000 L CNN
@@ -82,7 +120,7 @@ F 4 "ROF-78E5.0-0.5SMD" H 6000 3200 60  0001 C CNN "manf#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:CP C1
+L CP C1
 U 1 1 58D60B29
 P 7700 3050
 F 0 "C1" H 7818 3096 50  0000 L CNN
@@ -94,7 +132,7 @@ F 4 "UCM1H221MNL1GS" H 7700 3050 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L CP C2
 U 1 1 58D60C59
 P 6050 3050
 F 0 "C2" H 6168 3096 50  0000 L CNN
@@ -106,7 +144,7 @@ F 4 "EEEFT1C101AR" H 6050 3050 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L C C3
 U 1 1 58D6162F
 P 5700 3050
 F 0 "C3" H 5815 3096 50  0000 L CNN
@@ -118,7 +156,7 @@ F 4 "0603YD105KAT2A" H 5700 3050 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L C C4
 U 1 1 58D6167B
 P 7500 3050
 F 0 "C4" H 7615 3096 50  0000 L CNN
@@ -130,7 +168,7 @@ F 4 "UMK107BJ105KA-T" H 7500 3050 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D4
+L LED D4
 U 1 1 58D61755
 P 5200 3350
 F 0 "D4" V 5238 3233 50  0000 R CNN
@@ -141,7 +179,7 @@ F 3 "" H 50  450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L R R1
 U 1 1 58D61B8F
 P 5200 3050
 F 0 "R1" H 5270 3096 50  0000 L CNN
@@ -153,7 +191,7 @@ F 4 "CRG0603F1K0" H 5200 3050 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP1
+L Jumper_NC_Small JP1
 U 1 1 58D6221D
 P 5400 2900
 F 0 "JP1" H 5400 3112 50  0000 C CNN
@@ -164,7 +202,7 @@ F 3 "" H 300 -450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D5
+L D_Schottky D5
 U 1 1 58D629F6
 P 5600 2650
 F 0 "D5" V 5554 2729 50  0000 L CNN
@@ -176,7 +214,7 @@ F 4 "PMEG2010ER" H 5600 2650 60  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L GROVE-CONNECTOR-SMD:GROVE-CONNECTOR-SMD-90D(4+2P-2.0) J5
+L GROVE-CONNECTOR-SMD-90D(4+2P-2.0) J5
 U 1 1 58D66CE0
 P 3600 3150
 F 0 "J5" H -250 -50 50  0001 L CNN
@@ -193,7 +231,7 @@ UB
 Text GLabel 8600 3350 2    60   Input ~ 0
 UC
 $Comp
-L power:GND #PWR021
+L GND #PWR021
 U 1 1 58E27B40
 P 6800 3500
 F 0 "#PWR021" H 6850 3550 50  0001 C CNN
@@ -204,7 +242,7 @@ F 3 "" H 100 -150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 58E27FEA
 P 3600 3600
 F 0 "#PWR022" H 3650 3650 50  0001 C CNN
@@ -243,11 +281,9 @@ MISO
 Text GLabel 4600 700  1    60   Input ~ 0
 CS
 $Comp
-L V9203_Devkit-rescue:CONN_01X06 J9
+L CONN_01X06 J9
 U 1 1 58F503C4
 P 3600 4400
-AR Path="/58F503C4" Ref="J9"  Part="1" 
-AR Path="/58CFDB70/58F503C4" Ref="J9"  Part="1" 
 F 0 "J9" H 3519 3925 50  0000 C CNN
 F 1 "JST6" H 3519 4016 50  0000 C CNN
 F 2 "Connectors_JST:JST_SH_SM06B-SRSS-TB_06x1.00mm_Angled" H 0   -150 50  0001 C CNN
@@ -269,7 +305,7 @@ MISO
 Text GLabel 4150 4650 2    60   Input ~ 0
 CS
 $Comp
-L V9203_Devkit-rescue:OPEN_HARDWARE_1 LOGO1
+L OPEN_HARDWARE_1 LOGO1
 U 1 1 58FEBF9A
 P 8350 4700
 F 0 "LOGO1" H 8597 4771 50  0000 L CNN
@@ -280,7 +316,7 @@ F 3 "" H 1450 -250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L V9203_Devkit-rescue:Mounting_Hole MK1
+L Mounting_Hole MK1
 U 1 1 58FEC0CD
 P 7050 5350
 F 0 "MK1" H 7150 5396 50  0000 L CNN
@@ -291,7 +327,7 @@ F 3 "" H -1150 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L V9203_Devkit-rescue:Mounting_Hole MK2
+L Mounting_Hole MK2
 U 1 1 58FEC187
 P 7500 5350
 F 0 "MK2" H 7600 5396 50  0000 L CNN
@@ -302,7 +338,7 @@ F 3 "" H -700 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L V9203_Devkit-rescue:Mounting_Hole MK3
+L Mounting_Hole MK3
 U 1 1 58FEC1E1
 P 8000 5350
 F 0 "MK3" H 8100 5396 50  0000 L CNN
@@ -313,7 +349,7 @@ F 3 "" H -200 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L V9203_Devkit-rescue:Mounting_Hole MK4
+L Mounting_Hole MK4
 U 1 1 58FEC23B
 P 8500 5350
 F 0 "MK4" H 8600 5396 50  0000 L CNN
@@ -326,7 +362,7 @@ $EndComp
 Text GLabel 8600 3500 2    60   Input ~ 0
 UN
 $Comp
-L V9203_Devkit-rescue:GNDPWR #PWR023
+L GNDPWR #PWR023
 U 1 1 59063ED3
 P 3200 3650
 F 0 "#PWR023" H -750 -200 50  0001 C CNN
@@ -337,7 +373,7 @@ F 3 "" H -750 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L V9203_Devkit-rescue:GS3 J11
+L GS3 J11
 U 1 1 59075259
 P 4600 950
 F 0 "J11" V 4646 762 50  0000 R CNN
