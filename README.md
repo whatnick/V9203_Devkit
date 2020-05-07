@@ -8,7 +8,7 @@ connector on the top for people wishing to use it with non-feather
 format boards as host processor.
 
 ## Arduino Firmware
-Arduino Firmware if available in [GitHub]().
+Arduino Firmware if available in [GitHub](https://github.com/whatnick/V9203_Arduino).
 
 ## Micropython Firmware
 WIP
