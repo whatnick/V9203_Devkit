@@ -21,6 +21,7 @@ F 0 "J3" V 4550 700 50  0000 C CNN
 F 1 "CONN_01X12" V 4650 1350 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x12_Pitch2.54mm" H 2250 -150 50  0001 C CNN
 F 3 "" H 2250 -150 50  0001 C CNN
+F 4 " " H 4550 1400 50  0001 C CNN "DNP"
 	1    4550 1400
 	0    1    1    0   
 $EndComp
@@ -32,6 +33,7 @@ F 0 "J2" V 4350 1350 50  0000 L CNN
 F 1 "CONN_01X16" V 4428 2200 50  0000 L CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x16_Pitch2.54mm" H 2550 -50 50  0001 C CNN
 F 3 "" H 2550 -50 50  0001 C CNN
+F 4 " " H 4350 2250 50  0001 C CNN "DNP"
 	1    4350 2250
 	0    1    1    0   
 $EndComp
@@ -55,6 +57,7 @@ F 0 "D1" H 8200 3316 50  0000 C CNN
 F 1 "D_Schottky" H 8200 3225 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMA_Standard" H 100 -300 50  0001 C CNN
 F 3 "" H 100 -300 50  0001 C CNN
+F 4 "SS110" H 8200 3100 50  0001 C CNN "manf#"
 	1    8200 3100
 	1    0    0    -1  
 $EndComp
@@ -66,6 +69,7 @@ F 0 "D3" H 8200 3566 50  0000 C CNN
 F 1 "D_Schottky" H 8200 3475 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMA_Standard" H 100 -50 50  0001 C CNN
 F 3 "" H 100 -50 50  0001 C CNN
+F 4 "SS110" H 8200 3350 50  0001 C CNN "manf#"
 	1    8200 3350
 	1    0    0    -1  
 $EndComp
@@ -137,6 +141,7 @@ F 0 "D4" V 5238 3233 50  0000 R CNN
 F 1 "LED" V 5147 3233 50  0000 R CNN
 F 2 "LEDs:LED_0603" H 50  450 50  0001 C CNN
 F 3 "" H 50  450 50  0001 C CNN
+F 4 "LTST-C190KRKT" H 5200 3350 50  0001 C CNN "manf#"
 	1    5200 3350
 	0    -1   -1   0   
 $EndComp
@@ -160,6 +165,7 @@ F 0 "JP1" H 5400 3112 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 5400 3021 50  0000 C CNN
 F 2 "Connect:GS2" H 300 -450 50  0001 C CNN
 F 3 "" H 300 -450 50  0001 C CNN
+F 4 " " H 5400 2900 50  0001 C CNN "DNP"
 	1    5400 2900
 	1    0    0    -1  
 $EndComp
@@ -183,6 +189,7 @@ F 0 "J5" H -250 -50 50  0001 L CNN
 F 1 "GROVE-CONNECTOR-SMD-90D(4+2P-2.0)" H -250 -50 50  0001 L CNN
 F 2 "GROVE-CONNECTOR-SMD:HW4-SMD-2.0-90D" H -250 -50 50  0001 L CNN
 F 3 "4P-SMD-2.0-90D" H -250 -50 50  0001 L CNN
+F 4 " " H 3600 3150 50  0001 C CNN "DNP"
 	1    3600 3150
 	-1   0    0    1   
 $EndComp
@@ -276,6 +283,7 @@ F 0 "LOGO1" H 8597 4771 50  0000 L CNN
 F 1 "OPEN_HARDWARE_1" H 8597 4680 50  0000 L CNN
 F 2 "Symbols:OSHW-Logo2_7.3x6mm_SilkScreen" H 1450 -250 50  0001 C CNN
 F 3 "" H 1450 -250 50  0001 C CNN
+F 4 " " H 8350 4700 50  0001 C CNN "DNP"
 	1    8350 4700
 	1    0    0    -1  
 $EndComp
@@ -287,6 +295,7 @@ F 0 "MK1" H 7150 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 7150 5305 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H -1150 -50 50  0001 C CNN
 F 3 "" H -1150 -50 50  0001 C CNN
+F 4 " " H 7050 5350 50  0001 C CNN "DNP"
 	1    7050 5350
 	1    0    0    -1  
 $EndComp
@@ -298,6 +307,7 @@ F 0 "MK2" H 7600 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 7600 5305 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H -700 -50 50  0001 C CNN
 F 3 "" H -700 -50 50  0001 C CNN
+F 4 " " H 7500 5350 50  0001 C CNN "DNP"
 	1    7500 5350
 	1    0    0    -1  
 $EndComp
@@ -309,6 +319,7 @@ F 0 "MK3" H 8100 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 8100 5305 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H -200 -50 50  0001 C CNN
 F 3 "" H -200 -50 50  0001 C CNN
+F 4 " " H 8000 5350 50  0001 C CNN "DNP"
 	1    8000 5350
 	1    0    0    -1  
 $EndComp
@@ -320,6 +331,7 @@ F 0 "MK4" H 8600 5396 50  0000 L CNN
 F 1 "Mounting_Hole" H 8600 5305 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2" H 300 -50 50  0001 C CNN
 F 3 "" H 300 -50 50  0001 C CNN
+F 4 " " H 8500 5350 50  0001 C CNN "DNP"
 	1    8500 5350
 	1    0    0    -1  
 $EndComp
@@ -344,6 +356,7 @@ F 0 "J11" V 4646 762 50  0000 R CNN
 F 1 "GS3" V 4555 762 50  0000 R CNN
 F 2 "Connect:GS3" V 88  -174 50  0001 C CNN
 F 3 "" H 0   -100 50  0001 C CNN
+F 4 " " H 4600 950 50  0001 C CNN "DNP"
 	1    4600 950 
 	0    -1   -1   0   
 $EndComp
